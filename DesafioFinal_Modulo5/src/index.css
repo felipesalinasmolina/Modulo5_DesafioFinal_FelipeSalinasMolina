@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: "Maitree", serif;
+  text-align: center;
+  color: #43a047;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+/* Navbar */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  padding: 0 0 0 50px;
+  color: white;
+  background-image: url(https://cdn.create.vista.com/api/media/medium/399747902/stock-photo-top-view-delicious-italian-pizza-slices-vegetables-salami-black-background?token=);
+
+  background-size: contain;
+
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+/* gallery */
+.gallery {
+  display: grid;
+  gap: 10px;
+}
+
+.grid-columns-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.cartContent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: end;
+  padding: 10px;
+  border-radius: 10%;
+  justify-content: space-between;
+  
+ 
+  
+}
+.a{
+  display: flex;
+  align-items: center;
+}
+.imagePizza{
+  width: 300px;
+  height: 200px;
+  border-radius: 1rem;
+
+}
+.total-pizza{
+  display: flex;
+}
+.container-cardpizza{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: end;
+  padding: 10px;
+  border-radius: 10%;
+
+
+}
+.card-pizza-detail{
+  border-style: none;
+}
